@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Last Docs Updates</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Novembre 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	
+	<description><![CDATA[Ce plugin permet de VISUALISER les derniers documents (fichiers PDF) mise à jour sur le serveur]]></description>
+	<files>
+		<filename plugin="lastDocsUpdates">lastdocsupdates.php</filename>
+		<filename>lastdocsupdates.xml</filename>			
+	</files>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="note1" type="note" class="alert" label="Tag" description="Tag case-sensitive à utiliser : {LastDocUpdates}" />
+			<field name="dossier" type="text" default="" label="Dossier à surveiller (__DOCUMENTS__)" description="" size="10" />
+		</fieldset>	
+	</fields>
+	</config>
+</extension>

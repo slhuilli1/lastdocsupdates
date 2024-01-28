@@ -1,0 +1,14 @@
+.derniers-fichiers-modifies .un-fichier{
+	background-color:lightyellow;
+	margin-bottom:2%;
+}
+
+.derniers-fichiers-modifies .un-fichier .un-fichier-nom{
+  font-weight: bold;
+  float: left;
+}
+
+.derniers-fichiers-modifies .un-fichier .un-fichier-date
+{
+  float: right;
+}
